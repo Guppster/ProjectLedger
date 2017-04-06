@@ -8,7 +8,8 @@ permalink: /about/
 
 My name is Gurpreet Singh. I'm a software engineer by day and a car enthusiast
 by night. I enjoy learning new programming languages, being paranoid about internet 
-privacy, and working on classic cars in my free time.
+privacy, and working on classic cars in my free time. I study computer science and
+software engineering at the University of Western Ontario and will graduate in 2018.
 
 I started this blog as a way to document the many technical projects I work on 
 and provide some tutorials regarding topics I have experience with. I feel that
@@ -26,7 +27,5 @@ which you can use for collaboration, version control and packaging your projects
 GitHub is one of my favourate websites and I am usually pushing code multiple times 
 a day. My goal for this year is to have my commit count consistantly above 1000 commits. 
 
-
-
-
-
+If you would like to communicate with me remember to encrypt all communications with
+the public key provided on my homepage and send me an email. 

@@ -6,32 +6,48 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Apr 2017 17:13:51 -0400</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2017 17:13:51 -0400</lastBuildDate>
+    <pubDate>Thu, 06 Apr 2017 19:15:16 -0400</pubDate>
+    <lastBuildDate>Thu, 06 Apr 2017 19:15:16 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Pretty Cool Car LOL</title>
-        <description>&lt;p&gt;HI! This cool car, sure u lik&lt;/p&gt;
+        <title>Simplicity of a Blog</title>
+        <description>&lt;p&gt;I have wanted to make a blog for some time now but always decided not to because I couldn’t
+find a simple, efficient, and productive technology stack to support it. I looked into the 
+usual: medium, wordpress, wix, etc and found them all to be too heavy weight for my application.
+What I really wanted was a simple blog with no comments, no share buttons, no special formatting.
+Just text and images with no distractions.&lt;/p&gt;
 
-&lt;amp-img width=&quot;600&quot; height=&quot;500&quot; layout=&quot;responsive&quot; src=&quot;http://lorempixel.com/600/500/transport&quot;&gt;&lt;/amp-img&gt;
-
-&lt;p&gt;The bestest car in the world, very fast. i lik because once drove on street WOW! would do again thanks mr car man.&lt;/p&gt;
-
-&lt;p&gt;Bad man go away&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Only the coolest ppl use dis car&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;amp-img width=&quot;600&quot; height=&quot;300&quot; layout=&quot;responsive&quot; src=&quot;http://lorempixel.com/600/300/transport&quot;&gt;&lt;/amp-img&gt;
-
-&lt;p&gt;Car very cool 4 sure but this train unbeatable. goes WOSTNHHHHH. very fast, im sure u lik but car man does not.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 06 Apr 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/04/06/test-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/06/test-post.html</guid>
+        <pubDate>Thu, 06 Apr 2017 19:04:25 -0400</pubDate>
+        <link>http://localhost:4000/2017/04/06/simplicity-of-a-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/06/simplicity-of-a-blog.html</guid>
         
+        
+      </item>
+    
+      <item>
+        <title>HackPrinceton 2017</title>
+        <description>&lt;p&gt;This past weekend I visited Princeton campus to attend HackPrinceton, a hackathon hosted by the university.
+Out of the 10+ hackathons iv went to I feel this was one of the best hackathon experiences iv had. 
+Everything from the sleeping arrangements to the overall structure and layout of the hackathon felt well organized.&lt;/p&gt;
+
+&lt;p&gt;I attended this hackathon with two of my coworkers and one new friend I met at Princeton. We spent a week trying to
+come up with ideas before the hackathon began and ultimatly settled on creating the “Photo-Orb”. This would be a device
+capable of circling a human or an object and taking a 360 degree portrait of it. All 360 cameras take an outward facing 
+image so we wanted to make an inward facing solution.&lt;/p&gt;
+
+&lt;p&gt;There were three components to this project: assembling the hardware, programming the hardware,
+and programming a webpage to take many images and stitch them together.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Apr 2017 18:32:03 -0400</pubDate>
+        <link>http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017.html</guid>
+        
+        
+        <category>hackathon</category>
+        
+        <category>programming</category>
         
       </item>
     

@@ -17,8 +17,15 @@ therefore would also like this blog to serve as an exercise in thought organizat
 
 Following this blog would be benefital to people who are interested in upcoming 
 programming languages or technologies, following the progress of car rebulids, 
-and improving themselves as a developer. I plan this blog to closely follow
-and document my projects on [GitHub](http://www.github.com/Guppster). Further expanding on their readme's and 
-providing interesting examples
+and crypto-currencies as investments or development platforms. I plan this 
+blog to closely follow and document my projects on [GitHub](http://www.github.com/Guppster). Further expanding 
+on their readme's and providing interesting examples. 
+
+For people who do not know, [GitHub](http://www.github.com) is a website were you can store git repositories
+which you can use for collaboration, version control and packaging your projects.
+GitHub is one of my favourate websites and I am usually pushing code multiple times 
+a day. 
+
+
 
 

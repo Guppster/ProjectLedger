@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<amp-img width="640" height="480" layout="responsive" src="/assets/images/1987FieroGT.jpeg"></amp-img>
+<amp-img width="640" height="480" layout="responsive" src="{{ site.baseurl }}/assets/images/1987FieroGT.jpeg"></amp-img>
 
 My name is Gurpreet Singh. I'm a software engineer by day and a car enthusiast
 by night. I enjoy learning new programming languages, being paranoid about internet 
@@ -24,7 +24,8 @@ on their readme's and providing interesting examples.
 For people who do not know, [GitHub](http://www.github.com) is a website were you can store git repositories
 which you can use for collaboration, version control and packaging your projects.
 GitHub is one of my favourate websites and I am usually pushing code multiple times 
-a day. 
+a day. My goal for this year is to have my commit count consistantly above 1000 commits. 
+
 
 
 

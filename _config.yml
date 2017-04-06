@@ -1,0 +1,29 @@
+
+# Site settings
+title: Project Ledger
+email: Gurpreet@mailfence.com
+description: >
+    Tutorials and documentation for my projects
+logo: "/assets/images/logo.jpg"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://gurpreetsingh.me" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+name: 'Gurpreet Singh'
+bio: >
+    I was born to  write good code.
+author_image: "/assets/images/author.jpg"
+twitter_username: twitterisbad
+github_username:  Guppster
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate

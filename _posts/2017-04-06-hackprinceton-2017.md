@@ -2,7 +2,7 @@
 layout: post
 title: "HackPrinceton 2017"
 date: "2017-04-06 18:32:03 -0400"
-categories: hackathon programming 
+categories: tech
 ---
 
 This past weekend I visited Princeton campus to attend HackPrinceton, a hackathon hosted by the university.
@@ -19,7 +19,28 @@ image so we wanted to make an inward facing solution.
 There were three components to this project: assembling the hardware, programming the hardware,
 and programming a webpage to take many images and stitch them together.
 
-Other than the project, I spent a lot of time playing around with a 3D printer and printing everything I could think of.
+Since my web skills arn't as strong as my teammates and they hadn't worked with hardware very much, I decided to 
+help with creating the device. We planned to make it a RC car with a selfie stickt attached to the top so it could 
+drive around the individual while taking pictures with the phone attached to it. We quickly assembled the RC car 
+without any problems using two DC motors and some wheels. We used a H-bridge to control the direction the motors 
+were spinning. Using DC motors with an H-bridge created lots of problems for us later on because we weren't able 
+to accurately control the vehicle's position.
+
+<amp-img width="810" height="770" layout="responsive" src="{{ site.baseurl }}/assets/images/rsz_princeton-1.jpg"></amp-img>
+
+My teammate and I wrote some python code to prototype a movement scheme where we would run one motor longer than 
+the other to turn in a circle. It worked! We got excited and wanted to solder it together to create moving vehicle 
+but our limited soldering experience created lots of problems as well. Many of our connections weren't as solid as 
+we needed them to be for a moving vehicle. Sometimes a random motor would stop running, or would spin in random 
+directions. We spent many hours following the wiring connections and cleaning up the soldering but then realized 
+it was a bug in the code controlling the H-bridge. 
+
+<amp-img width="810" height="910" layout="responsive" src="{{ site.baseurl }}/assets/images/rsz_princeton-3.jpg"></amp-img>
+
+Ultimately we finished fixed the bug and the other half of the team finished the website / camera part and everything
+was ready for demoing. We impressed many judges and were awarded with Nvidia Shield mobile gaming consoles.
+
+Other than the project, I spent a lot of time playing around with a 3D printer and exploring the beautiful campus.
 Some things I printed out were: a Jeep logo, a Pontiac logo, a coin with the Bitcoin logo on it and the totem from the movie
 Inception. 
 

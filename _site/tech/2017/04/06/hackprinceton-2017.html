@@ -13,7 +13,7 @@
   <title>HackPrinceton 2017</title>
   <meta name="description" content="This past weekend I visited Princeton campus to attend HackPrinceton, a hackathon hosted by the university.Out of the 10+ hackathons iv went to I feel this w...">
 
-  <link rel="canonical" href="http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017.html">
+  <link rel="canonical" href="http://localhost:4000/tech/2017/04/06/hackprinceton-2017.html">
   <link rel="alternate" type="application/rss+xml" title="Project Ledger" href="http://localhost:4000/feed.xml">
 
   <script type="application/ld+json">
@@ -21,7 +21,7 @@
 {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017.html",
+  "mainEntityOfPage": "http://localhost:4000/tech/2017/04/06/hackprinceton-2017.html",
   "headline": "HackPrinceton 2017",
   "datePublished": "2017-04-06T18:32:03-04:00",
   "dateModified": "2017-04-06T18:32:03-04:00",
@@ -660,7 +660,28 @@ image so we wanted to make an inward facing solution.</p>
 <p>There were three components to this project: assembling the hardware, programming the hardware,
 and programming a webpage to take many images and stitch them together.</p>
 
-<p>Other than the project, I spent a lot of time playing around with a 3D printer and printing everything I could think of.
+<p>Since my web skills arn’t as strong as my teammates and they hadn’t worked with hardware very much, I decided to 
+help with creating the device. We planned to make it a RC car with a selfie stickt attached to the top so it could 
+drive around the individual while taking pictures with the phone attached to it. We quickly assembled the RC car 
+without any problems using two DC motors and some wheels. We used a H-bridge to control the direction the motors 
+were spinning. Using DC motors with an H-bridge created lots of problems for us later on because we weren’t able 
+to accurately control the vehicle’s position.</p>
+
+<amp-img width="810" height="770" layout="responsive" src="/assets/images/rsz_princeton-1.jpg"></amp-img>
+
+<p>My teammate and I wrote some python code to prototype a movement scheme where we would run one motor longer than 
+the other to turn in a circle. It worked! We got excited and wanted to solder it together to create moving vehicle 
+but our limited soldering experience created lots of problems as well. Many of our connections weren’t as solid as 
+we needed them to be for a moving vehicle. Sometimes a random motor would stop running, or would spin in random 
+directions. We spent many hours following the wiring connections and cleaning up the soldering but then realized 
+it was a bug in the code controlling the H-bridge.</p>
+
+<amp-img width="810" height="910" layout="responsive" src="/assets/images/rsz_princeton-3.jpg"></amp-img>
+
+<p>Ultimately we finished fixed the bug and the other half of the team finished the website / camera part and everything
+was ready for demoing. We impressed many judges and were awarded with Nvidia Shield mobile gaming consoles.</p>
+
+<p>Other than the project, I spent a lot of time playing around with a 3D printer and exploring the beautiful campus.
 Some things I printed out were: a Jeep logo, a Pontiac logo, a coin with the Bitcoin logo on it and the totem from the movie
 Inception.</p>
 
@@ -669,7 +690,7 @@ Inception.</p>
     </section>
     <footer class="post-footer">
       <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url=http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017&text=HackPrinceton+2017&via=twitterisbad" target="_blank">
+        <a class="icon" href="https://twitter.com/intent/tweet?url=http://localhost:4000/tech/2017/04/06/hackprinceton-2017&text=HackPrinceton+2017&via=twitterisbad" target="_blank">
           Share on
           
 <span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>

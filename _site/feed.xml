@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Apr 2017 20:37:47 -0400</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2017 20:37:47 -0400</lastBuildDate>
+    <pubDate>Thu, 06 Apr 2017 21:05:20 -0400</pubDate>
+    <lastBuildDate>Thu, 06 Apr 2017 21:05:20 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -78,20 +78,39 @@ image so we wanted to make an inward facing solution.&lt;/p&gt;
 &lt;p&gt;There were three components to this project: assembling the hardware, programming the hardware,
 and programming a webpage to take many images and stitch them together.&lt;/p&gt;
 
-&lt;p&gt;Other than the project, I spent a lot of time playing around with a 3D printer and printing everything I could think of.
+&lt;p&gt;Since my web skills arn’t as strong as my teammates and they hadn’t worked with hardware very much, I decided to 
+help with creating the device. We planned to make it a RC car with a selfie stickt attached to the top so it could 
+drive around the individual while taking pictures with the phone attached to it. We quickly assembled the RC car 
+without any problems using two DC motors and some wheels. We used a H-bridge to control the direction the motors 
+were spinning. Using DC motors with an H-bridge created lots of problems for us later on because we weren’t able 
+to accurately control the vehicle’s position.&lt;/p&gt;
+
+&lt;amp-img width=&quot;810&quot; height=&quot;770&quot; layout=&quot;responsive&quot; src=&quot;/assets/images/rsz_princeton-1.jpg&quot;&gt;&lt;/amp-img&gt;
+
+&lt;p&gt;My teammate and I wrote some python code to prototype a movement scheme where we would run one motor longer than 
+the other to turn in a circle. It worked! We got excited and wanted to solder it together to create moving vehicle 
+but our limited soldering experience created lots of problems as well. Many of our connections weren’t as solid as 
+we needed them to be for a moving vehicle. Sometimes a random motor would stop running, or would spin in random 
+directions. We spent many hours following the wiring connections and cleaning up the soldering but then realized 
+it was a bug in the code controlling the H-bridge.&lt;/p&gt;
+
+&lt;amp-img width=&quot;810&quot; height=&quot;910&quot; layout=&quot;responsive&quot; src=&quot;/assets/images/rsz_princeton-3.jpg&quot;&gt;&lt;/amp-img&gt;
+
+&lt;p&gt;Ultimately we finished fixed the bug and the other half of the team finished the website / camera part and everything
+was ready for demoing. We impressed many judges and were awarded with Nvidia Shield mobile gaming consoles.&lt;/p&gt;
+
+&lt;p&gt;Other than the project, I spent a lot of time playing around with a 3D printer and exploring the beautiful campus.
 Some things I printed out were: a Jeep logo, a Pontiac logo, a coin with the Bitcoin logo on it and the totem from the movie
 Inception.&lt;/p&gt;
 
 &lt;amp-img width=&quot;1080&quot; height=&quot;736&quot; layout=&quot;responsive&quot; src=&quot;/assets/images/Princeton-4.jpg&quot;&gt;&lt;/amp-img&gt;
 </description>
         <pubDate>Thu, 06 Apr 2017 18:32:03 -0400</pubDate>
-        <link>http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017.html</link>
-        <guid isPermaLink="true">http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017.html</guid>
+        <link>http://localhost:4000/tech/2017/04/06/hackprinceton-2017.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tech/2017/04/06/hackprinceton-2017.html</guid>
         
         
-        <category>hackathon</category>
-        
-        <category>programming</category>
+        <category>tech</category>
         
       </item>
     

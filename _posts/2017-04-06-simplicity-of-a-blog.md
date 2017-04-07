@@ -13,7 +13,7 @@ Just text and images with no distractions.
 One online blogging system I really like is [Medium](http://www.medium.com). I think Medium has really eye catching blog posts
 due to the way the words are placed and the fonts that are used. I think these features have greatly 
 contributed to the success of Medium in the past few years. The style of my blog is very similar to 
-Medium, except it doesnt have any extra social media style functions.
+Medium, except it doesn't have any extra social media style functions.
 
 
 

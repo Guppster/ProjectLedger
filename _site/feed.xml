@@ -6,9 +6,22 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Apr 2017 15:49:19 -0400</pubDate>
-    <lastBuildDate>Fri, 07 Apr 2017 15:49:19 -0400</lastBuildDate>
+    <pubDate>Fri, 07 Apr 2017 16:10:03 -0400</pubDate>
+    <lastBuildDate>Fri, 07 Apr 2017 16:10:03 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Java Style Guide</title>
+        <description>&lt;p&gt;I believe Java is a beautiful programming language when it is written
+correctly. I run into&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 07 Apr 2017 16:00:20 -0400</pubDate>
+        <link>http://localhost:4000/2017/04/07/java-style-guide.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/07/java-style-guide.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hacking Cancer</title>
@@ -16,13 +29,13 @@
 create a challenging web applet game in Java with the main purpose of utilizing
 the power of crowdsourcing to improve cancer research.&lt;/p&gt;
 
-&lt;p&gt;This is a Side-Scroller, platformer game in which the user first creates their
-own map from visual representations of a Gene MicroArray. The user is
+&lt;p&gt;This is a side-scroller, platform game in which the user first creates their
+own map from visual representations of a Gene Micro-Array. The user is
 challenged to determine the path with the most amount of orbs present which
 would allow them to collect these orbs in the second stage of the game.&lt;/p&gt;
 
-&lt;p&gt;This path is a unautomatable process due to sher amount of data and thus is the
-bottleneck for scientists in their progression to find a cure for cancer.
+&lt;p&gt;This path is not a automatable process due to sheer amount of data and thus is
+the bottleneck for scientists in their progression to find a cure for cancer.
 Allowing users to solve these simple problems has been statistically proven to
 increase analysis speed by 600% (Jonna Reynolds, Cancer Research UK).&lt;/p&gt;
 
@@ -32,9 +45,8 @@ if they touch them to make the game challenging and competitive. Upon reaching
 the finish line the user is shown their score and the score + the extracted
 research data is saved online in JSON format for further analysis.&lt;/p&gt;
 
-&lt;p&gt;My partner, Konrad Pfundner, and I programmed this project in under 36 hours 
-at HackWestern 2015 and recieved and were awarded as one of the top finalist
-at the event.&lt;/p&gt;
+&lt;p&gt;My partner, Konrad Pfundner, and I programmed this project in under 36 hours at
+HackWestern 2015 and were awarded as one of the top finalist at the event.&lt;/p&gt;
 
 &lt;p&gt;For further analysis take a look at the &lt;a href=&quot;https://github.com/Guppster/HackingCancer&quot;&gt;code on
 Github&lt;/a&gt;.&lt;/p&gt;
@@ -56,13 +68,13 @@ something completely new!&lt;/p&gt;
 
 &lt;p&gt;Recently a had been getting bored of using Java at my job and started to push to
 write tools in a different language, but now that iv discovered Java 8 streams,
-lamba expressions, and more I can’t wait to use more Java.&lt;/p&gt;
+lambda expressions, and more I can’t wait to use more Java.&lt;/p&gt;
 
 &lt;p&gt;In this post I will discuss some features of JDK8 and show examples of how to use them.&lt;/p&gt;
 
 &lt;p&gt;Here is a list of things added&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Lamda Expressions&lt;/li&gt;
+  &lt;li&gt;Lambda Expressions&lt;/li&gt;
   &lt;li&gt;Changes to Generic Types&lt;/li&gt;
   &lt;li&gt;Stream Collections&lt;/li&gt;
   &lt;li&gt;Functional Interfaces&lt;/li&gt;
@@ -88,7 +100,7 @@ Just text and images with no distractions.&lt;/p&gt;
 &lt;p&gt;One online blogging system I really like is &lt;a href=&quot;http://www.medium.com&quot;&gt;Medium&lt;/a&gt;. I think Medium has really eye catching blog posts
 due to the way the words are placed and the fonts that are used. I think these features have greatly 
 contributed to the success of Medium in the past few years. The style of my blog is very similar to 
-Medium, except it doesnt have any extra social media style functions.&lt;/p&gt;
+Medium, except it doesn’t have any extra social media style functions.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 06 Apr 2017 19:04:25 -0400</pubDate>
@@ -107,15 +119,15 @@ Everything from the sleeping arrangements to the overall structure and layout of
 &lt;amp-img width=&quot;1000&quot; height=&quot;558&quot; layout=&quot;responsive&quot; src=&quot;/assets/images/resize_Princeton-2.jpg&quot;&gt;&lt;/amp-img&gt;
 
 &lt;p&gt;I attended this hackathon with two of my coworkers and one new friend I met at Princeton. We spent a week trying to
-come up with ideas before the hackathon began and ultimatly settled on creating the “Photo-Orb”. This would be a device
+come up with ideas before the hackathon began and ultimately settled on creating the “Photo-Orb”. This would be a device
 capable of circling a human or an object and taking a 360 degree portrait of it. All 360 cameras take an outward facing 
 image so we wanted to make an inward facing solution.&lt;/p&gt;
 
 &lt;p&gt;There were three components to this project: assembling the hardware, programming the hardware,
 and programming a webpage to take many images and stitch them together.&lt;/p&gt;
 
-&lt;p&gt;Since my web skills arn’t as strong as my teammates and they hadn’t worked with hardware very much, I decided to 
-help with creating the device. We planned to make it a RC car with a selfie stickt attached to the top so it could 
+&lt;p&gt;Since my web skills are not as strong as my teammates and they hadn’t worked with hardware very much, I decided to 
+help with creating the device. We planned to make it a RC car with a selfie stick attached to the top so it could 
 drive around the individual while taking pictures with the phone attached to it. We quickly assembled the RC car 
 without any problems using two DC motors and some wheels. We used a H-bridge to control the direction the motors 
 were spinning. Using DC motors with an H-bridge created lots of problems for us later on because we weren’t able 

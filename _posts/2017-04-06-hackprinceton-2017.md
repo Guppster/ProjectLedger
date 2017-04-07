@@ -12,15 +12,15 @@ Everything from the sleeping arrangements to the overall structure and layout of
 <amp-img width="1000" height="558" layout="responsive" src="{{ site.baseurl }}/assets/images/resize_Princeton-2.jpg"></amp-img>
 
 I attended this hackathon with two of my coworkers and one new friend I met at Princeton. We spent a week trying to
-come up with ideas before the hackathon began and ultimatly settled on creating the "Photo-Orb". This would be a device
+come up with ideas before the hackathon began and ultimately settled on creating the "Photo-Orb". This would be a device
 capable of circling a human or an object and taking a 360 degree portrait of it. All 360 cameras take an outward facing 
 image so we wanted to make an inward facing solution. 
 
 There were three components to this project: assembling the hardware, programming the hardware,
 and programming a webpage to take many images and stitch them together.
 
-Since my web skills arn't as strong as my teammates and they hadn't worked with hardware very much, I decided to 
-help with creating the device. We planned to make it a RC car with a selfie stickt attached to the top so it could 
+Since my web skills are not as strong as my teammates and they hadn't worked with hardware very much, I decided to 
+help with creating the device. We planned to make it a RC car with a selfie stick attached to the top so it could 
 drive around the individual while taking pictures with the phone attached to it. We quickly assembled the RC car 
 without any problems using two DC motors and some wheels. We used a H-bridge to control the direction the motors 
 were spinning. Using DC motors with an H-bridge created lots of problems for us later on because we weren't able 

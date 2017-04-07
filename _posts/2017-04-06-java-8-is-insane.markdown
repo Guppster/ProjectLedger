@@ -12,12 +12,12 @@ something completely new!
 
 Recently a had been getting bored of using Java at my job and started to push to
 write tools in a different language, but now that iv discovered Java 8 streams,
-lamba expressions, and more I can't wait to use more Java.
+lambda expressions, and more I can't wait to use more Java.
 
 In this post I will discuss some features of JDK8 and show examples of how to use them.
 
 Here is a list of things added
-* Lamda Expressions
+* Lambda Expressions
 * Changes to Generic Types
 * Stream Collections
 * Functional Interfaces

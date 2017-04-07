@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Apr 2017 19:15:16 -0400</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2017 19:15:16 -0400</lastBuildDate>
+    <pubDate>Thu, 06 Apr 2017 20:00:48 -0400</pubDate>
+    <lastBuildDate>Thu, 06 Apr 2017 20:00:48 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -17,6 +17,11 @@ find a simple, efficient, and productive technology stack to support it. I looke
 usual: medium, wordpress, wix, etc and found them all to be too heavy weight for my application.
 What I really wanted was a simple blog with no comments, no share buttons, no special formatting.
 Just text and images with no distractions.&lt;/p&gt;
+
+&lt;p&gt;One online blogging system I really like is &lt;a href=&quot;http://www.medium.com&quot;&gt;Medium&lt;/a&gt;. I think Medium has really eye catching blog posts
+due to the way the words are placed and the fonts that are used. I think these features have greatly 
+contributed to the success of Medium in the past few years. The style of my blog is very similar to 
+Medium, except it doesnt have any extra social media style functions.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 06 Apr 2017 19:04:25 -0400</pubDate>
@@ -32,6 +37,8 @@ Just text and images with no distractions.&lt;/p&gt;
 Out of the 10+ hackathons iv went to I feel this was one of the best hackathon experiences iv had. 
 Everything from the sleeping arrangements to the overall structure and layout of the hackathon felt well organized.&lt;/p&gt;
 
+&lt;amp-img width=&quot;1000&quot; height=&quot;558&quot; layout=&quot;responsive&quot; src=&quot;/assets/images/resize_Princeton-2.jpg&quot;&gt;&lt;/amp-img&gt;
+
 &lt;p&gt;I attended this hackathon with two of my coworkers and one new friend I met at Princeton. We spent a week trying to
 come up with ideas before the hackathon began and ultimatly settled on creating the “Photo-Orb”. This would be a device
 capable of circling a human or an object and taking a 360 degree portrait of it. All 360 cameras take an outward facing 
@@ -39,6 +46,12 @@ image so we wanted to make an inward facing solution.&lt;/p&gt;
 
 &lt;p&gt;There were three components to this project: assembling the hardware, programming the hardware,
 and programming a webpage to take many images and stitch them together.&lt;/p&gt;
+
+&lt;p&gt;Other than the project, I spent a lot of time playing around with a 3D printer and printing everything I could think of.
+Some things I printed out were: a Jeep logo, a Pontiac logo, a coin with the Bitcoin logo on it and the totem from the movie
+Inception.&lt;/p&gt;
+
+&lt;amp-img width=&quot;1080&quot; height=&quot;736&quot; layout=&quot;responsive&quot; src=&quot;/assets/images/Princeton-4.jpg&quot;&gt;&lt;/amp-img&gt;
 </description>
         <pubDate>Thu, 06 Apr 2017 18:32:03 -0400</pubDate>
         <link>http://localhost:4000/hackathon/programming/2017/04/06/hackprinceton-2017.html</link>

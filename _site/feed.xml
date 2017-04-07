@@ -6,9 +6,40 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Apr 2017 20:00:48 -0400</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2017 20:00:48 -0400</lastBuildDate>
+    <pubDate>Thu, 06 Apr 2017 20:37:47 -0400</pubDate>
+    <lastBuildDate>Thu, 06 Apr 2017 20:37:47 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Java 8 is INSANE</title>
+        <description>&lt;p&gt;Everyone who has programmed with me knows I really enjoy writing Java. It might
+be because it was the first “real” programming language I learned back in highschool 
+or because iv memorized so much of it. Regardless of that though, the additions 
+featured in Java 8 have greatly evolved the language and transformed it into 
+something completely new!&lt;/p&gt;
+
+&lt;p&gt;Recently a had been getting bored of using Java at my job and started to push to
+write tools in a different language, but now that iv discovered Java 8 streams,
+lamba expressions, and more I can’t wait to use more Java.&lt;/p&gt;
+
+&lt;p&gt;In this post I will discuss some features of JDK8 and show examples of how to use them.&lt;/p&gt;
+
+&lt;p&gt;Here is a list of things added&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lamda Expressions&lt;/li&gt;
+  &lt;li&gt;Changes to Generic Types&lt;/li&gt;
+  &lt;li&gt;Stream Collections&lt;/li&gt;
+  &lt;li&gt;Functional Interfaces&lt;/li&gt;
+  &lt;li&gt;Small changes to Reflection and Annotations&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 06 Apr 2017 20:24:30 -0400</pubDate>
+        <link>http://localhost:4000/2017/04/06/java-8-is-insane.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/06/java-8-is-insane.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Simplicity of a Blog</title>

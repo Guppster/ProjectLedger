@@ -6,9 +6,45 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Apr 2017 21:05:20 -0400</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2017 21:05:20 -0400</lastBuildDate>
+    <pubDate>Fri, 07 Apr 2017 15:49:19 -0400</pubDate>
+    <lastBuildDate>Fri, 07 Apr 2017 15:49:19 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Hacking Cancer</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/Guppster/HackingCancer&quot;&gt;HackingCancer&lt;/a&gt; is an attempt to
+create a challenging web applet game in Java with the main purpose of utilizing
+the power of crowdsourcing to improve cancer research.&lt;/p&gt;
+
+&lt;p&gt;This is a Side-Scroller, platformer game in which the user first creates their
+own map from visual representations of a Gene MicroArray. The user is
+challenged to determine the path with the most amount of orbs present which
+would allow them to collect these orbs in the second stage of the game.&lt;/p&gt;
+
+&lt;p&gt;This path is a unautomatable process due to sher amount of data and thus is the
+bottleneck for scientists in their progression to find a cure for cancer.
+Allowing users to solve these simple problems has been statistically proven to
+increase analysis speed by 600% (Jonna Reynolds, Cancer Research UK).&lt;/p&gt;
+
+&lt;p&gt;Once the map has been created, the user is placed at the starting point on
+their own map. The map is populated with many monsters that will kill the user
+if they touch them to make the game challenging and competitive. Upon reaching
+the finish line the user is shown their score and the score + the extracted
+research data is saved online in JSON format for further analysis.&lt;/p&gt;
+
+&lt;p&gt;My partner, Konrad Pfundner, and I programmed this project in under 36 hours 
+at HackWestern 2015 and recieved and were awarded as one of the top finalist
+at the event.&lt;/p&gt;
+
+&lt;p&gt;For further analysis take a look at the &lt;a href=&quot;https://github.com/Guppster/HackingCancer&quot;&gt;code on
+Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Apr 2017 15:25:48 -0400</pubDate>
+        <link>http://localhost:4000/2017/04/07/hacking-cancer.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/07/hacking-cancer.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Java 8 is INSANE</title>

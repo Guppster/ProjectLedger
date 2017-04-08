@@ -26,7 +26,7 @@ becomes really annoying to use.  On this blog if you try exposing the links,
 there will be very few that are not directly related to the article. This keeps
 vim linking very simple and easy to follow.
 
-<amp-img width="1022" height="217" layout="responsive" src="{{ site.baseurl }}/assets/images/medium.png" alt="A Medium blog post"></amp-img>
+<amp-img width="1022" height="217" layout="responsive" src="{{ site.baseurl }}/assets/images/medium.png" alt="A Medium blog post"></amp-img> _An article on Medium_
 
 Personally, I am very easily distracted, so when reading a blog post with many
 other elements on the sides I find it hard to focus and absorb the content I'm reading.

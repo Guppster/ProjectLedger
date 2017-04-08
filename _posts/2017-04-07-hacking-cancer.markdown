@@ -8,7 +8,7 @@ date: "2017-04-07 15:25:48 -0400"
 create a challenging web applet game in Java with the main purpose of utilizing
 the power of crowd sourcing to improve cancer research.
 
-<amp-img width="98" height="50" layout="responsive" src="{{ site.baseurl }}/assets/images/hackingcancer.jpg" alt="HackingCancer's main menu"></amp-img>
+<amp-img width="98" height="50" layout="responsive" src="{{ site.baseurl }}/assets/images/hackingcancer.jpg" alt="HackingCancer's main menu"></amp-img> _Game's main menu_
 
 This is a side-scroller, platform game in which the user first creates their
 own map from visual representations of a Gene Micro-Array. The user is

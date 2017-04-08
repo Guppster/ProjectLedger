@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<amp-img width="640" height="480" layout="responsive" src="{{ site.baseurl }}/assets/images/1987FieroGT.jpeg"></amp-img>
+<amp-img width="640" height="480" layout="responsive" src="{{ site.baseurl }}/assets/images/1987FieroGT.jpeg" alt="My 1987 Pontiac Fiero GT"></amp-img>
 
 My name is Gurpreet Singh. I'm a software engineer by day and a car enthusiast
 by night. I enjoy learning new programming languages, being paranoid about internet 

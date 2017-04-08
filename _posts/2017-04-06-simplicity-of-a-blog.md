@@ -7,13 +7,13 @@ date: "2017-04-06 19:04:25-0400"
 I have wanted to make a blog for some time now but always decided not to
 because I couldn't find a simple, efficient, and productive technology stack to
 support it. I looked into the usual: medium, wordpress, wix, etc and found them
-all to be too heavy weight for my application.  What I really wanted was a
+all to be too heavyweight for my application.  What I really wanted was a
 simple blog with no comments, no share buttons, no special formatting.  Just
-text and images with no distractions. I needed to create an emersive environment 
+text and images with no distractions. I needed to create an immersive environment 
 for my reader. 
 
 One online blogging system I really like is [Medium](http://www.medium.com). I
-think Medium has really eye catching blog posts due to the way the words are
+think Medium has really eye-catching blog posts due to the way the words are
 placed and the fonts that are used. I think these features have greatly
 contributed to the success of Medium in the past few years. The style of my
 blog is very similar to Medium, except it doesn't have any extra social media
@@ -29,7 +29,7 @@ vim linking very simple and easy to follow.
 <amp-img width="1022" height="217" layout="responsive" src="{{ site.baseurl }}/assets/images/medium.png"></amp-img>
 
 Personally, I am very easily distracted, so when reading a blog post with many
-other elements on the sides I find it hard to focus and absorb the content i'm reading.
+other elements on the sides I find it hard to focus and absorb the content I'm reading.
 For example above you can see one of Medium's mistakes. When you are reading an 
 article on medium there will always be this floating  social media sharing column. I don't
 think readers need rapid fire access to share an article. 

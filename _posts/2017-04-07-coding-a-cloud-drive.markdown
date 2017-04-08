@@ -24,11 +24,16 @@ server, then the server compares that data with it's directory. The server
 sends back a request specifying the files that need to be replaced and then
 those files are transmitted in blocks and reconstructed on the server side. 
 
-The filenames and checksums are sent using TCP within HMDS because this data
+The filenames and checksums are sent using [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) within HMDS because this data
 needs reliable data transfer and is not expected to be large. The file data
-itself is sent using protocol i designed on top of UDP which ensures reliable
+itself is sent using protocol i designed on top of [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) which ensures reliable
 data transfer while taking advantage of the speed benefit of UDP. 
 
+<amp-img width="985" height="350" layout="responsive" src="{{ site.baseurl }}/assets/images/repo.png"></amp-img>
+
+### Structure of the Project
+
+Above you can see the structure of the project repository (along with my angry commit messages). It is categorised into four sections; client, common, HFTPD, and HMDS. Client stores the code that runs on the client's machine and it is responsible for creating messages, sending files, and broadcasting which files are in the directory. Common stores code that is used more than once by multiple components, like the message struct, input parsing code, and UDP networking code. HFTPD contains code to actually transfer files, which includes detecting different types of control and acknowledgement messages and creating files/directories. HMDS is responsible for transferring file metadata, comparing server / client files and handling all communication with [redis](https://redis.io/).
 
 ### About Development
 

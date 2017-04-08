@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java 8 is INSANE"
-date: "2017-04-06 20:24:30 -0400"
+date: "2017-04-05 20:24:30 -0400"
 ---
 
 Everyone who has programmed with me knows I really enjoy writing Java. It might

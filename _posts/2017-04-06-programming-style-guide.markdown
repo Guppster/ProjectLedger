@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programming Style Guide"
-date: "2017-04-07 16:38:53 -0400"
+date: "2017-04-06 16:38:53 -0400"
 ---
 
 Everyday I run into poorly written code and spend lots of my time reformatting

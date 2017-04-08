@@ -9,7 +9,7 @@ This past weekend I visited Princeton campus to attend HackPrinceton, a hackatho
 Out of the 10+ hackathons iv went to I feel this was one of the best hackathon experiences iv had. 
 Everything from the sleeping arrangements to the overall structure and layout of the hackathon felt well organized.
 
-<amp-img width="1000" height="558" layout="responsive" src="{{ site.baseurl }}/assets/images/resize_Princeton-2.jpg"></amp-img>
+<amp-img width="1000" height="558" layout="responsive" src="{{ site.baseurl }}/assets/images/resize_Princeton-2.jpg" alt="Princeton Campus"></amp-img>
 
 I attended this hackathon with two of my coworkers and one new friend I met at Princeton. We spent a week trying to
 come up with ideas before the hackathon began and ultimately settled on creating the “Photo-Orb”. This would be a device
@@ -25,11 +25,11 @@ drive around the individual while taking pictures with the phone attached to it.
 without any problems using two DC motors and some wheels. We used a H-bridge to control the direction the motors
 were spinning. Using DC motors with an H-bridge created lots of problems for us later on because we weren't able to accurately control the vehicle's position.
 
-<amp-img width="810" height="770" layout="responsive" src="{{ site.baseurl }}/assets/images/rsz_princeton-1.jpg"></amp-img>
+<amp-img width="810" height="770" layout="responsive" src="{{ site.baseurl }}/assets/images/rsz_princeton-1.jpg" alt="Hardware image"></amp-img>
 
 My teammate and I wrote some python code to prototype a movement scheme where we would run one motor longer than the other to turn in a circle. It worked! We got excited and wanted to solder it together to create moving vehicle but our limited soldering experience created lots of problems as well. Many of our connections weren't as solid as we needed them to be for a moving vehicle. Sometimes a random motor would stop running or would spin in random directions. We spent many hours following the wiring connections and cleaning up the soldering but then realized it was a bug in the code controlling the H-bridge. 
 
-<amp-img width="810" height="910" layout="responsive" src="{{ site.baseurl }}/assets/images/rsz_princeton-3.jpg"></amp-img>
+<amp-img width="810" height="910" layout="responsive" src="{{ site.baseurl }}/assets/images/rsz_princeton-3.jpg" alt="Demo image"></amp-img>
 
 Ultimately we finished fixed the bug and the other half of the team finished the website/camera part and everything
 was ready for demoing. We impressed many judges and were awarded Nvidia Shield mobile gaming consoles.
@@ -38,4 +38,4 @@ Other than the project, I spent a lot of time playing around with a 3D printer a
 Some things I printed out were: a Jeep logo, a Pontiac logo, a coin with the Bitcoin logo on it and the totem from the movie
 Inception. 
 
-<amp-img width="1080" height="736" layout="responsive" src="{{ site.baseurl }}/assets/images/Princeton-4.jpg"></amp-img>
+<amp-img width="1080" height="736" layout="responsive" src="{{ site.baseurl }}/assets/images/Princeton-4.jpg" alt="3D printed Jeep Logo"></amp-img>

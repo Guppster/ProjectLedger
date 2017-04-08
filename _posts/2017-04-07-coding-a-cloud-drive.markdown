@@ -29,7 +29,7 @@ needs reliable data transfer and is not expected to be large. The file data
 itself is sent using protocol i designed on top of [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) which ensures reliable
 data transfer while taking advantage of the speed benefit of UDP. 
 
-<amp-img width="985" height="350" layout="responsive" src="{{ site.baseurl }}/assets/images/repo.png"></amp-img>
+<amp-img width="985" height="350" layout="responsive" src="{{ site.baseurl }}/assets/images/repo.png" alt="Github project structure"></amp-img>
 
 ### Structure of the Project
 

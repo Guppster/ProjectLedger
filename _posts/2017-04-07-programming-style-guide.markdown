@@ -14,5 +14,3 @@ java but most points will work in the majority of languages.
 
 Your lines of code should be adiqutely spaced out. Only lines that are directly
 related to eachother should be touching eachother. 
-
-

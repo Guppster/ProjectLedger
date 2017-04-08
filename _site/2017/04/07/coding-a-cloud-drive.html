@@ -10,10 +10,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
 
-  <title>Hacking Cancer</title>
-  <meta name="description" content="HackingCancer is an attempt to create a challenging web applet game in Java with the main purpose of utilizingthe power of crowd sourcing to improve cancer r...">
+  <title>Coding a Cloud Drive</title>
+  <meta name="description" content="Hooli DriveHooli Drive is my client and serverimplementation of a personal cloud storage service (sometimes referred to asan online backup service) that can ...">
 
-  <link rel="canonical" href="http://localhost:4000/2017/04/07/hacking-cancer.html">
+  <link rel="canonical" href="http://localhost:4000/2017/04/07/coding-a-cloud-drive.html">
   <link rel="alternate" type="application/rss+xml" title="Project Ledger" href="http://localhost:4000/feed.xml">
 
   <script type="application/ld+json">
@@ -21,11 +21,11 @@
 {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "http://localhost:4000/2017/04/07/hacking-cancer.html",
-  "headline": "Hacking Cancer",
-  "datePublished": "2017-04-07T15:25:48-04:00",
-  "dateModified": "2017-04-07T15:25:48-04:00",
-  "description": "HackingCancer is an attempt to create a challenging web applet game in Java with the main purpose of utilizingthe power of crowd sourcing to improve cancer r...",
+  "mainEntityOfPage": "http://localhost:4000/2017/04/07/coding-a-cloud-drive.html",
+  "headline": "Coding a Cloud Drive",
+  "datePublished": "2017-04-07T21:19:41-04:00",
+  "dateModified": "2017-04-07T21:19:41-04:00",
+  "description": "Hooli DriveHooli Drive is my client and serverimplementation of a personal cloud storage service (sometimes referred to asan online backup service) that can ...",
   "author": {
     "@type": "Person",
     "name": "Gurpreet Singh"
@@ -643,50 +643,61 @@ pre {
     <main class="content" role="main">
   <article class="post">
     <div class="post-meta">
-      <h1 class="post-title">Hacking Cancer</h1>
+      <h1 class="post-title">Coding a Cloud Drive</h1>
     </div>
 
     <section class="post-content">
       <a name="topofpage"></a>
-      <p><a href="https://github.com/Guppster/HackingCancer">HackingCancer</a> is an attempt to 
-create a challenging web applet game in Java with the main purpose of utilizing
-the power of crowd sourcing to improve cancer research.</p>
+      <h1 id="hooli-drive">Hooli Drive</h1>
 
-<p>This is a side-scroller, platform game in which the user first creates their
-own map from visual representations of a Gene Micro-Array. The user is
-challenged to determine the path with the most amount of orbs present which
-would allow them to collect these orbs in the second stage of the game.</p>
+<p><a href="https://github.com/Guppster/Drive">Hooli Drive</a> is my client and server
+implementation of a personal cloud storage service (sometimes referred to as
+an online backup service) that can be used for file sharing and collaboration.
+This project was programmed in C and was my first exposure to memory leaks and
+other complex C problems as well as the <a href="https://en.wikipedia.org/wiki/OSI_model">OSI network
+stack</a>.</p>
 
-<p>This path is not a automatable process due to sheer amount of data and thus is
-the bottleneck for scientists in their progression to find a cure for cancer.
-Allowing users to solve these simple problems has been statistically proven to
-increase analysis speed by 600% (Jonna Reynolds, Cancer Research UK).</p>
+<h3 id="about-the-tool">About the tool</h3>
 
-<p>Once the map has been created, the user is placed at the starting point on
-their own map. The map is populated with many monsters that will kill the user
-if they touch them to make the game challenging and competitive. Upon reaching
-the finish line the user is shown their score and the score + the extracted
-research data is saved online in JSON format for further analysis.</p>
+<p>When the server and client programs are run simultaneously the client’s
+specified directory will be synced with the same directory on the server. This
+means any files in the client directory that do not already exist or are
+outdated on the server, will be replaced. The process starts with the HMDS
+(Hooli MetaData Server) sending filenames and checksums of those files to the
+server, then the server compares that data with it’s directory. The server
+sends back a request specifying the files that need to be replaced and then
+those files are transmitted in blocks and reconstructed on the server side.</p>
 
-<p>My partner, Konrad Pfundner, and I programmed this project in under 36 hours at
-HackWestern 2015 and were awarded as one of the top finalist at the event. Our
-goal for this hackathon was to attempt something challenging and really improve
-our programming skills. To achieve this level of difficulty we refrained from using
-any external libraries or frameworks to make the game development easier and 
-programmed everything using basic java graphics and processing. This decision
-turned out to be very rewarding as I ended up learning a lot about drawing and 
-manipulating shapes in java.</p>
+<p>The filenames and checksums are sent using TCP within HMDS because this data
+needs reliable data transfer and is not expected to be large. The file data
+itself is sent using protocol i designed on top of UDP which ensures reliable
+data transfer while taking advantage of the speed benefit of UDP.</p>
 
-<p>HackWestern 2015 was also my first time presenting a hackathon project on stage 
-by myself. I had been awake for 36 hours and didn’t have any time to prepare so it was
-quite an interesting experience.</p>
+<h3 id="about-development">About Development</h3>
 
-<p>For further analysis take a look at the <a href="https://github.com/Guppster/HackingCancer">code on Github</a>.</p>
+<p>This is one of my favourite personal projects because I love learning about
+networking and low level C programming. I got a chance to experiment with the
+different layers of networking using hands-on programming.</p>
+
+<p>I began working on this project while reading the textbook ‘Networking. A
+top-down approach’ to better understand UDP and TCP.  I used both these
+protocols and learned when they are applicable and how i can leverage their
+strengths.</p>
+
+<p>Development of this project was done on a virtual environment generated by
+<a href="https://www.vagrantup.com/">Vagrant</a>. This turned out to be a great decision
+when I had to switch development environments because it allowed me to continue
+programming without any problems. I plan to continue using Vagrant in my future
+projects and maybe experiment with Docker.</p>
+
+<p>Overall this was a very good learning experience for me and I will continue
+seeking for more difficult adventures like this one.</p>
+
 
     </section>
     <footer class="post-footer">
       <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url=http://localhost:4000/2017/04/07/hacking-cancer&text=Hacking+Cancer&via=twitterisbad" target="_blank">
+        <a class="icon" href="https://twitter.com/intent/tweet?url=http://localhost:4000/2017/04/07/coding-a-cloud-drive&text=Coding+a+Cloud+Drive&via=twitterisbad" target="_blank">
           Share on
           
 <span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
@@ -725,7 +736,7 @@ quite an interesting experience.</p>
             </span>
           </p>
           <hr>
-          <p class="published">Published <time datetime="2017-04-07 15:25">07 Apr 2017</time></p>
+          <p class="published">Published <time datetime="2017-04-07 21:19">07 Apr 2017</time></p>
         </section>
       </div>
       <div class="isRight">

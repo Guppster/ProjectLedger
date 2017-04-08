@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Apr 2017 21:20:56 -0400</pubDate>
-    <lastBuildDate>Fri, 07 Apr 2017 21:20:56 -0400</lastBuildDate>
+    <pubDate>Fri, 07 Apr 2017 21:48:15 -0400</pubDate>
+    <lastBuildDate>Fri, 07 Apr 2017 21:48:15 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -104,6 +104,8 @@ related to eachother should be touching eachother.&lt;/p&gt;
 create a challenging web applet game in Java with the main purpose of utilizing
 the power of crowd sourcing to improve cancer research.&lt;/p&gt;
 
+&lt;amp-img width=&quot;98&quot; height=&quot;50&quot; layout=&quot;responsive&quot; src=&quot;/assets/images/hackingcancer.jpg&quot;&gt;&lt;/amp-img&gt;
+
 &lt;p&gt;This is a side-scroller, platform game in which the user first creates their
 own map from visual representations of a Gene Micro-Array. The user is
 challenged to determine the path with the most amount of orbs present which
@@ -131,7 +133,21 @@ manipulating shapes in java.&lt;/p&gt;
 
 &lt;p&gt;HackWestern 2015 was also my first time presenting a hackathon project on stage 
 by myself. I had been awake for 36 hours and didn’t have any time to prepare so it was
-quite an interesting experience.&lt;/p&gt;
+quite an interesting experience. I was quite surprised that we made it to the finals 
+because we spent the first night of the hackathon trying to hack the internal
+display system of a Tesla… that was fun, but didn’t work out very well.&lt;/p&gt;
+
+&lt;p&gt;While thinking of ideas we were trying to make something that would cause a 
+social impact because that was one of the sponsor prizes and we like to win.
+We ended up qualifying for the following list of prizes on &lt;a href=&quot;https://hackwestern.devpost.com/submissions/35020-hackingcancer&quot;&gt;DevPost&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Most Creative App&lt;/li&gt;
+  &lt;li&gt;Best Use of Mashape APIs&lt;/li&gt;
+  &lt;li&gt;Best Use of AI&lt;/li&gt;
+  &lt;li&gt;Best Domain Name Registered&lt;/li&gt;
+  &lt;li&gt;Best Social Impact Hack&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;For further analysis take a look at the &lt;a href=&quot;https://github.com/Guppster/HackingCancer&quot;&gt;code on Github&lt;/a&gt;.&lt;/p&gt;
 </description>

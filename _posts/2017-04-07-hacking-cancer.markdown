@@ -8,6 +8,8 @@ date: "2017-04-07 15:25:48 -0400"
 create a challenging web applet game in Java with the main purpose of utilizing
 the power of crowd sourcing to improve cancer research.
 
+<amp-img width="98" height="50" layout="responsive" src="{{ site.baseurl }}/assets/images/hackingcancer.jpg"></amp-img>
+
 This is a side-scroller, platform game in which the user first creates their
 own map from visual representations of a Gene Micro-Array. The user is
 challenged to determine the path with the most amount of orbs present which
@@ -35,6 +37,20 @@ manipulating shapes in java.
 
 HackWestern 2015 was also my first time presenting a hackathon project on stage 
 by myself. I had been awake for 36 hours and didn't have any time to prepare so it was
-quite an interesting experience.  
+quite an interesting experience. I was quite surprised that we made it to the finals 
+because we spent the first night of the hackathon trying to hack the internal
+display system of a Tesla... that was fun, but didn't work out very well. 
+
+While thinking of ideas we were trying to make something that would cause a 
+social impact because that was one of the sponsor prizes and we like to win.
+We ended up qualifying for the following list of prizes on [DevPost](https://hackwestern.devpost.com/submissions/35020-hackingcancer):
+
+
+* Most Creative App 
+* Best Use of Mashape APIs 
+* Best Use of AI 
+* Best Domain Name Registered 
+* Best Social Impact Hack
+
 
 For further analysis take a look at the [code on Github](https://github.com/Guppster/HackingCancer).

@@ -12,7 +12,7 @@ Everything from the sleeping arrangements to the overall structure and layout of
 <amp-img width="1000" height="558" layout="responsive" src="{{ site.baseurl }}/assets/images/resize_Princeton-2.jpg" alt="Princeton Campus"></amp-img> _Princeton campus looked amazing_
 
 I attended this hackathon with two of my coworkers and one new friend I met at Princeton. We spent a week trying to
-come up with ideas before the hackathon began and ultimately settled on creating the “Photo-Orb”. This would be a device
+come up with ideas before the hackathon began and ultimately settled on creating the <a href="https://github.com/Guppster/Princeton2017" target="_blank">“Photo-Orb”</a>. This would be a device
 capable of circling a human or an object and taking a 360-degree portrait of it. All 360 cameras take an outward facing
 image so we wanted to make an inward facing solution. 
 
@@ -33,6 +33,7 @@ My teammate and I wrote some python code to prototype a movement scheme where we
 
 Ultimately we finished fixed the bug and the other half of the team finished the website/camera part and everything
 was ready for demoing. We impressed many judges and were awarded Nvidia Shield mobile gaming consoles.
+You can find the offical page about the project located on <a href="https://devpost.com/software/princeton2017" target="_blank">DevPost</a>
 
 Other than the project, I spent a lot of time playing around with a 3D printer and exploring the beautiful campus.
 Some things I printed out were: a Jeep logo, a Pontiac logo, a coin with the Bitcoin logo on it and the totem from the movie

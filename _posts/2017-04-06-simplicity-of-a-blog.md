@@ -6,13 +6,13 @@ date: "2017-04-06 19:04:25-0400"
 
 I have wanted to make a blog for some time now but always decided not to
 because I couldn't find a simple, efficient, and productive technology stack to
-support it. I looked into the usual: [Medium](http://medium.com/), [Wordpress](https://wordpress.com/), [Wix](http://www.wix.com/), etc and found them
+support it. I looked into the usual: <a href="http://medium.com/" target="_blank">Medium</a>, <a href="https://wordpress.com/" target="_blank">Wordpress</a>, <a href="http://www.wix.com/" target="_blank">Wix</a>, etc and found them
 all to be too heavyweight for my application.  What I really wanted was a
 simple blog with no comments, no share buttons, no special formatting.  Just
 text and images with no distractions. I needed to create an immersive environment 
 for my reader. 
 
-One online blogging system I really like is [Medium](http://www.medium.com). I
+One online blogging system I really like is <a href="http://medium.com/" target="_blank">Medium</a>. I
 think Medium has really eye-catching blog posts due to the way the words are
 placed and the fonts that are used. I think these features have greatly
 contributed to the success of Medium in the past few years. The style of my

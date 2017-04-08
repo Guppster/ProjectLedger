@@ -30,9 +30,18 @@ vim linking very simple and easy to follow.
 
 Personally, I am very easily distracted, so when reading a blog post with many
 other elements on the sides I find it hard to focus and absorb the content I'm reading.
-For example above you can see one of Medium's mistakes. When you are reading an 
-article on medium there will always be this floating  social media sharing column. I don't
-think readers need rapid fire access to share an article. 
+For example, above you can see one of Medium's mistakes. When you are reading an 
+article on Medium there will always be this floating social media sharing column. I don't
+think readers need rapid fire access to share an article so this is a waste of space. 
+
+This blog is designed with the latest technologies to ensure extremely fast load times
+and efficent rendering. The website is hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+and uses <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> to organize the blog. 
+The blog uses Google's <a href="https://www.ampproject.org/" target="_blank">AMP project</a> (Accelerated Mobile Pages) to achieve ridiculously fast load times. 
+This makes sure that readers do not get frustrated with slow webpages while trying to read my content
+even if they are using a slow mobile connection. All elements of this website are optimized to be used
+on any size of screen, the site works well on mobile phones and large desktop displays. 
+
 
 
 

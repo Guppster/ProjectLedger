@@ -4,6 +4,8 @@ title: "Ark Lock Project"
 date: "2017-10-12 23:44:33 +0000"
 ---
 
+Creating a smart lock on the ARK blockchain while developing IoT infrastructure.
+
 ## The Goal
 
 The main goal of this project is to make the ARK blockchain more accessible to

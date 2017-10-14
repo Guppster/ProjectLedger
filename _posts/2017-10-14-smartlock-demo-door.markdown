@@ -8,7 +8,7 @@ This article will cover my creation of a demo door to show off my smart lock.
 We're going to start with a piece of wood and an old deadbolt lock and turn
 them into a masterpiece.
 
-[Image of finished demo door]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/demolock.jpg" alt="The Final Product"></amp-img> 
 
 _The Final Product_
 
@@ -24,14 +24,14 @@ _The Final Product_
 
 Obtain a piece of 2 x 8 wood and use a guide to cut holes for the deadbolt.
 
-[Picture of holes drilled]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/holesdrilled.jpg" alt="The Final Product"></amp-img> 
 
 ### Step 2 
 
 Test fit the deadbolt lock to ensure everything fits.
 If it doesn't cut a new piece of wood and try again.
 
-[Picture of lock installed]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/lockinstalled.jpg" alt="The Final Product"></amp-img> 
 
 _It fits!_
 
@@ -39,13 +39,13 @@ _It fits!_
 
 Sand down the wood with 80 grit sandpaper to prep it for paint and get rid of rough edges
 
-[Picture of sander]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/sanded.jpg" alt="The Final Product"></amp-img> 
 
 ### Step 4
 
 Get some cheap paint and spray it down.
 
-[Picture of painted]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/painted.jpg" alt="The Final Product"></amp-img> 
 
 ### Step 5
 
@@ -58,25 +58,25 @@ This may be different in your case but for me the rod was too thick to fit insid
 this issue I grinded down a small amount of the rod until it would fit. As a last resort the rod can also 
 be connected with glue.
 
-[Image of Deadbolt connected to Servo connector]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/servoconnectorattached.jpg" alt="The Final Product"></amp-img> 
 
-[Image of grinding]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/grinding.jpg" alt="The Final Product"></amp-img> 
 
 ### Step 6
 
 Attach the locking mechanism of the lock on one side of the finished demo door and the housing connector 3D printed piece
 on the other side. The deadbolt rod should be positioned in the middle of the printed piece.
 
-[Image with housing connected]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/housingattached2.jpg" alt="The Final Product"></amp-img> 
 
 Then attach the rotating servo connector to the deadbolt rod. You are now ready to connect a servo to this and control your lock.
 
-[Image with servo connector attached]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/housingattached.jpg" alt="The Final Product"></amp-img> 
 
 ### Step 7
 
 Putting it all together now. Put the servo in the large circular housing and your control board inside the rectangular box at the bottom.
 
-[Image showing finished product with only 3D printed side showing]
+<amp-img width="800" height="600" layout="responsive" src="{{ site.baseurl }}/assets/images/doorlock/final3Dlock.jpg" alt="The Final Product"></amp-img> 
 
 Be sure to follow the rest of the ARK lock build as the interesting blockchain stuff is still coming up

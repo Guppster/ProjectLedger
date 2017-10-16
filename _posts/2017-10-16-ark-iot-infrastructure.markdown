@@ -15,6 +15,7 @@ The three products that will compose the architecture are
 - Ark IoT Module
 
 ### Ark IoT Hub
+_<a href="https://github.com/Guppster/Ark-IoTHub" target="_blank">Ark Iot-Hub Github Project</a>_
 
 This piece of software is responsible for abstracting the non-essential logic from the IoT modules. Things like signing transactions and
 polling for new transactions in an account. This hub device or software will need to be active on the network before IoT modules are activated so they can register with the hub and start using its functionality. I think this is an appropriate approach because other successful smart home items like Philips Hue smart bulbs also require a "Hub" to be running on the network for bulbs to be connected. The hub will abstract away all non-essential blockchain logic so the IoT developer can focus on functional code for their device.
@@ -32,6 +33,7 @@ Since these hub devices will be universal and not store any state, you would be 
 The Hub will host an API with endpoints for each of these tasks because at the very least we can assume an IoT device can connect to the internet, create a JSON structure, and send an HTTP request. 
 
 ### Ark IoT Controller
+_<a href="https://github.com/Guppster/Ark-IoTController" target="_blank">Ark Iot-Controller Github Project</a>_
 
 The IoT controller is a way to monitor and interact with any Ark Blockchain connected IoT device that follows this specified architecture. The controller will be in the form of a mobile application and provide the user a Plug-and-Play process from the point of receiving an IoT device to where they can execute actions on the hardware.
 
@@ -44,6 +46,7 @@ The controller app provides the following functionality:
 - Execute a specified action on a specified device
 
 ### Ark IoT Module
+_<a href="https://github.com/Guppster/ARK-Lock" target="_blank">Ark Iot-Module Project Example</a>_
 
 The Ark IoT Module is a specification IoT devices should follow to be accepted into the Ark Iot-Hub ecosystem. The strict adherence to this protocol allows the rest of the architecture to function smoothly. 
 

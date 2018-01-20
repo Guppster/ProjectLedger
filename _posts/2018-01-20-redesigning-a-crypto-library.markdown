@@ -11,7 +11,7 @@ in Kotlin with extra features, an improved test suite, and real documentation.
 This post will explain how I feel about the non-functional elements of
 a repository and the drastic effects of improving them.
 
-## The Repository
+### The Repository
 Ark-Java is the JVM library that I was working on. It allows JVM applications
 an easy interface with the Ark blockchain. While using this library in my IoT
 infrastructure project I realized many big problems in this library which were
@@ -21,7 +21,7 @@ unpredictable network issues influenced the status of the build. The library
 was also not being updated as often as issues were being fixed on master which
 resulted in many people using outdated versions of the library.
 
-## Groovy To Kotlin
+### Groovy To Kotlin
 Upon examining the code it was apparent why so many unexpected issues were
 showing up. The library was designed more as a script and didn't expect the
 user of the library to pass any illegal parameters. This issue was exaggerated
